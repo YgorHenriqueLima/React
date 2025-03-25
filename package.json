@@ -2,7 +2,7 @@
   "name": "curso-react",
   "private": true,
   "version": "0.0.0",
-  "homepage":"react/",
+  "homepage":"React/",
   "type": "module",
   "scripts": {
     "dev": "vite",
