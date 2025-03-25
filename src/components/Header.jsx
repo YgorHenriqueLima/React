@@ -1,9 +1,16 @@
-import './App.css';
+import Relogio from './Relogio';
+import './estilos/header.css';
 
 export default function Header(){
+    const textoDestaque = {
+        color: '#0ad9',
+        fontSize: '3em',
+    }
+
     return (
         <header>
-            <h1>Site interativo</h1>
+            <Relogio/>
+            <h1 style={textoDestaque}>Site interativo</h1>
             <nav>
                 <a href="#">Home</a>
                 <a href="#">Notícias</a>

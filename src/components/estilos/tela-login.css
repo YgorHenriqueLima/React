@@ -1,0 +1,82 @@
+div.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../imgs/wallpaper-site.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 99.1vw;
+    height: 60vh;
+}
+
+.caixa-login {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 90%;  /* Em telas grandes, vai se ajustar */
+    max-width: 400px;  /* Limita a largura para não ficar muito grande */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+div.form-group{
+    width: 40%;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form-group > input:hover {
+    background-color: rgba(136, 45, 193, 0.412);
+    transition: 0.1s 0.1s;
+    color: white;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: rgb(42, 104, 165);
+    margin-top: 20px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(32, 177, 177);
+    transition: 0.2s 0.2s;
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}
+
+/*parte do conteúdo do site*/
+section {
+    margin: 50px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+/* Faz o layout ficar melhor em telas pequenas */
+@media (max-width: 768px) {
+    .conteudo {
+        height: auto;
+        padding: 20px;
+    }
+    .caixa-login {
+        width: 100%;
+        padding: 15px;
+    }
+}
