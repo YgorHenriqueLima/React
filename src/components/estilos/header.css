@@ -1,34 +1,61 @@
-header{
-    background-color: #2c3e50;
-    color: #ecf0f1;
-    padding: 15px 20px;
+:root {
+    --delft-blue: #2A2D64;
+    --antiflash-white: #ECECEC;
+    --tangerine: #F28500;
+    --electric-indigo: #5D13E7;
+    --light-gray: #dad1d1;
+    --hover-blue: #4679c4;
+}
+/*container de todo o header*/
+#container-header{
+    background: linear-gradient(to bottom, var(--antiflash-white), var(--light-gray));
+   
+}
+
+/*CABEÇALHO*/
+header {
+    padding: 20px 40px;
     display: flex;
-    flex-direction: column;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 1px 1px 18px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px 20px 0px 20px;
 }
 
-header > h1 {
-    font-size: 1.8rem;
+header > a{
+    text-decoration: none;
+}
+header > a > h1 {
+    color: var(--delft-blue);
+    font-size: 38px;
     margin: 0;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
 }
 
-header > nav {
+header > h1:hover {
+    transform: scale(1.05); 
+}
+
+/* Barra de navegação */
+nav {
+    margin: 0px 20px 0px 20px;
     display: flex;
     gap: 15px;
 }
 
-header > nav a {
-    color: #ecf0f1;
+nav a {
+    color: black;
     text-decoration: none;
-    font-size: 1rem;
-    padding: 8px 12px;
-    border-radius: 5px;
-    transition: 0.8s;
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background 0.4s ease-in-out, transform 0.2s;
 }
 
-header > nav a:hover {
-    background-color: #619dd8;
+nav a:hover {
+    opacity: 0.8;
+    transform: translateY(-2px);
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.15);
 }

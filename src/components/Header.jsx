@@ -1,24 +1,56 @@
-import Relogio from './Relogio';
+
 import './estilos/header.css';
 
 export default function Header(){
-    const textoDestaque = {
-        color: '#0ad9',
-        fontSize: '3em',
-    }
 
     return (
-        <header>
-            <Relogio/>
-            <h1 style={textoDestaque}>Site interativo</h1>
+        <div id='container-header'>    
+            <header>
+              <a href="#"><h1>DestinoPerfeito</h1></a>
+            </header>
             <nav>
-                <a href="#">Home</a>
-                <a href="#">Notícias</a>
-                <a href="#">Esportes</a>
-                <a href="#">Sobre nós</a>
-                <a href="#">Login</a>
-                <a href="">Cadastro</a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        trip
+                    </span>
+                    Pacotes
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        travel
+                    </span>
+                    Passagens
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        hotel
+                    </span>
+                    Hotéis
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        directions_boat
+                    </span>
+                    Cruzeiros
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        directions_car
+                    </span>
+                    carros
+                </a>
+
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        directions_bus
+                    </span>
+                    ônibus
+                </a>
             </nav>
-        </header>
+        </div>
     )
 }

@@ -1,0 +1,25 @@
+         Título principal (Hero Section)
+"Explore o mundo sem limites!"
+"Descubra destinos incríveis e planeje sua próxima aventura!"
+
+Seção de Apresentação
+"Bem-vindo ao nosso portal de viagens! Aqui você encontra inspiração para conhecer os lugares mais fascinantes do planeta. Prepare-se para explorar novos destinos e viver experiências inesquecíveis."
+
+Sobre Nós
+"Somos apaixonados por viagens e queremos ajudar você a planejar a jornada dos seus sonhos. Do planejamento ao embarque, estamos aqui para tornar cada viagem especial e sem complicações."
+
+Destinos Populares
+Paris, França – "A cidade do amor e da luz, repleta de história, cultura e gastronomia incrível."
+
+Tóquio, Japão – "Tecnologia, tradição e cultura vibrante em um só lugar."
+
+Rio de Janeiro, Brasil – "Belezas naturais, praias paradisíacas e um povo acolhedor esperam por você."
+
+Nova York, EUA – "A cidade que nunca dorme, repleta de atrações, compras e entretenimento."
+
+Roma, Itália – "Uma viagem no tempo com monumentos históricos e culinária irresistível."
+
+Chamada para ação (CTA)
+"Pronto para sua próxima aventura? Cadastre-se e comece a planejar agora!"
+
+Se quiser algo mais específico, me avise! 😊
